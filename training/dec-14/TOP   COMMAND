@@ -1,0 +1,41 @@
+1)TOP command displays processor activity of linux box and displays tasks managed by the kernel in real time.it will show processor and memory that are being used.
+ 
+2)IT produces an ordered list of running processes selected by user specified criteria and updates it periodically.
+zombi process waiting to be stopped from the parent process
+
+3)NICE value is the priority value which range from -20 to 19 (lower the number more the priority the task gets).
+
+^z- suppends top
+fg- resumestop
+
+alt+clt+l will give u told num and ends 
+
+4)top -v shows the latest version oftop. 
+
+5)Commandline options for top are: -h -v -b ( Starts  top in Batch mode, which could be useful for sending output from top to other programs or to a file.this mode, top will not accept input and runs until the iterations limit you've set with the  `-n'  command-line option or until killed.)
+
+6)-c  :Command-line/Program-name toggle
+            Starts  top  with  the  last remembered `c' state reversed.  Thus, if top was displaying command lines, now that field will show program names, and vice versa.  See the `c' interactive command for additional information.
+
+7) hi : time spent servicing hardware interrupts 
+   si : time spent servicing software interrupts
+
+8)  -d  :Delay-time interval as:  -d ss.t (secs.tenths)
+            Specifies the delay between screen updates, and overrides the corresponding value in one's  personal  configuration file or the startup default.  Later this can be changed with the `d' or `s' interactive commands.Fractional  seconds  are honored, but a negative number is not allowed.  In all cases, however, such changes are prohibited if top is running in Secure mode, except for root (unless the `s' command-line option was used).  For additional information on Secure mode see topic 6a. SYSTEM Configuration File.
+
+       -H  :Threads-mode operation
+            Instructs  top  to  display  individual threads.  Without this command-line option a summation of all threads in each process is shown.  Later this can be changed with the `H' interactive command.
+
+       -i  :Idle-process toggle
+            Starts top with the last remembered `i' state reversed.  When this toggle is Off, tasks that have not  used  any CPU since the last update will not be displayed.  For additional information regarding this toggle see topic 4c. TASK AREA Commands, SIZE.
+
+       -n  :Number-of-iterations limit as:  -n number
+            Specifies the maximum number of iterations, or frames, top should produce before ending.
+
+
+
+
+ 
+
+
+

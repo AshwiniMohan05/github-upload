@@ -1,0 +1,6 @@
+
+fun() {
+    local var="sample value to be returned"
+    echo "$var"
+}
+

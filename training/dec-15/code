@@ -1,0 +1,11 @@
+#!/bin/bash
+NOWDATE=$(date +"%Y-%m-%d")
+NOWTIME=$(date +"%T")
+USERS=$(who | cut -d " " -f1)
+TERMINAL=0
+LOGIN=0
+
+for u in $USERS
+do
+    echo "$NOWDATE""_""$NOWTIME User: " $u
+done

@@ -1,0 +1,11 @@
+The given question is to identify and display fourth word and space(' ') is the only delimiter between the words.
+
+Given sample output : Hello
+                      World
+                      How are you
+Given sample output: Hello
+                     World
+We should get the output using 'cut' keyword from shell scripting.
+cut -f4 -d' ' -s is my code by i did not get the desired output.
+
+

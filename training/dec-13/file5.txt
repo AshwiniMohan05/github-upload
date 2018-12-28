@@ -1,0 +1,8 @@
+
+if true; then
+    echo Always excecuted
+    fi
+    if false; then
+        echo Never excecuted
+        fi
+

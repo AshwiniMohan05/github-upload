@@ -1,0 +1,15 @@
+bash parameter expansion
+
+$ -is used for command substitution and intoduces parameter expansion.
+"doubt in 15.3about how does the pattern changes."
+to match the beginninga/#I/y
+to match at the end a/%g/N
+replace a pattern with nothing a/g/
+add prefix to array items A[@]/#/R
+"what is munging the expansion"(15.10)
+
+cat >fruits.txt <<EOF -> fruits.txt is called the here document and the names of the fruits will be contained in it.
+"section 20.5"
+"section 33.2" sudo dnf
+
+
