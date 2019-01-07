@@ -1,0 +1,30 @@
+*{
+    margin: 10px;
+    padding: 10px;
+  }
+  /*Here we defined text color will be the white for all elements and all text will be in the center /fon size*/
+  body{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+  }
+  header{
+    background-color: orange;
+    height: 100px;
+  
+  }
+  .nav{
+    background-color: blue;
+    height: 600px;
+    width: 300px;
+    float: left;
+  }
+  .article{
+    background-color: green;
+    height: 600px;
+    overflow: hidden;
+  }
+  footer{
+    background-color: brown;
+    height: 100px;
+  }
